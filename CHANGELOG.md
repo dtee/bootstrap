@@ -1,3 +1,18 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/angular-ui/bootstrap/compare/1.3.3...v2.0.0) (2016-05-27)
+
+
+### Bug Fixes
+
+* **typeahead:** change to select class ([13c14af](https://github.com/angular-ui/bootstrap/commit/13c14af)), closes [#5922](https://github.com/angular-ui/bootstrap/issues/5922) [#5848](https://github.com/angular-ui/bootstrap/issues/5848)
+
+
+### BREAKING CHANGES
+
+* typeahead: This changes the selector used so that it doesn't select for the `li` tag specifically, but the elements with the class `uib-typeahead-match` - if using a custom template, this class needs to be added to the `li` element in the typeahead popup template.
+
+
+
 <a name="1.3.3"></a>
 ## [1.3.3](https://github.com/angular-ui/bootstrap/compare/1.3.2...v1.3.3) (2016-05-23)
 
