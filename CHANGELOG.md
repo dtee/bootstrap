@@ -1,3 +1,8 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/angular-ui/bootstrap/compare/2.0.0...v2.1.0) (2016-05-27)
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/angular-ui/bootstrap/compare/1.3.3...v2.0.0) (2016-05-27)
 
