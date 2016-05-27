@@ -136,7 +136,7 @@ angular.module('ui.bootstrap.datepicker', ['ui.bootstrap.dateparser', 'ui.bootst
     }
   });
 
-  $scope.uniqueId = 'datepicker-' + $scope.$id + '-' + Math.floor(Math.random() * 10000);
+  $scope.uniqueId = 'datepicker-' + $scope.$id;
 
   $scope.disabled = angular.isDefined($attrs.disabled) || false;
   if (angular.isDefined($attrs.ngDisabled)) {
